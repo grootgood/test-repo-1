@@ -22,6 +22,7 @@ public class HomeController {
 		
 		Date date = new Date();
 		String add = "bcds";
+		String add2 = "bcd2s";
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
